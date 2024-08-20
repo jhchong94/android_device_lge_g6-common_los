@@ -26,6 +26,9 @@ MALLOC_SVELTE_FOR_LIBC32 := true
 TARGET_HAS_HDR_DISPLAY := true
 TARGET_HAS_WIDE_COLOR_DISPLAY := true
 
+# Kernel
+TARGET_KERNEL_CONFIG += vendor/lge/lge_lucye_common.config
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
